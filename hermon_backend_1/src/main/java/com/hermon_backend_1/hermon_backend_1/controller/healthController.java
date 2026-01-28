@@ -13,7 +13,7 @@ public class healthController {
 
     public String healthCheck(){
 
-     return ("database connected");
+     return ("database connected succesfully");
     }
 
 
