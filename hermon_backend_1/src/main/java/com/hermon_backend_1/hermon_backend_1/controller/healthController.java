@@ -4,16 +4,17 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-
-
 @RestController
-@RequestMapping ("/api/Health")
+@RequestMapping ("/api/healthCheck")
+
 public class healthController {
 
     @GetMapping
-    public String Health(){
-        return ("working");
 
+    public String healthCheck(){
+
+     return ("database connected");
     }
+
 
 }
