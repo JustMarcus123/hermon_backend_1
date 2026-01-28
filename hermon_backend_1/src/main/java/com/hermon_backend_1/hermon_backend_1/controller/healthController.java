@@ -12,7 +12,7 @@ public class healthController {
     @GetMapping
 
     public String health(){
-        return("testing 123");
+        return("database working fine");
     }
 
 }
