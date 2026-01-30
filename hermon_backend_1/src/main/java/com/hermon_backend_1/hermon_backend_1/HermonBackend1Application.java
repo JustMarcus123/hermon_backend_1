@@ -9,5 +9,5 @@ public class HermonBackend1Application {
 	public static void main(String[] args) {
 		SpringApplication.run(HermonBackend1Application.class, args);
 	}
-}
 
+}
