@@ -3,6 +3,8 @@ package com.hermon_backend_1.hermon_backend_1.Entity;
 import jakarta.persistence.*;
 import lombok.*;
 
+import java.util.List;
+
 @Entity
 @Table(name = "members")
 @Getter
@@ -23,5 +25,6 @@ public class MemberEntity {
     private  String email;
 
     private String phone;
+
 
 }
